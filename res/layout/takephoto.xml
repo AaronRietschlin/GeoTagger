@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:orientation="vertical"
+  android:layout_height="match_parent" android:id="@+id/imageResult">
+    <ImageView android:src="@drawable/icon" android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_centerHorizontal="true" android:layout_marginLeft="100dip" android:visibility="gone" android:layout_marginBottom="15dip"></ImageView>
+    <EditText 
+	    	android:id="@+id/nameImage"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:background="@android:drawable/editbox_background"
+        	android:visibility="gone"
+        	android:layout_below="@id/imageView1"
+        	android:layout_marginBottom="20dip"
+        	android:hint="@string/hint_name_image"
+        	/>
+    <TextView android:layout_height="wrap_content" android:text="TextView" android:layout_width="wrap_content" android:layout_alignParentLeft="true" android:id="@+id/latitudeLabel" android:layout_below="@+id/nameImage"></TextView>
+    <TextView
+	        android:id="@+id/blank_space"
+        	android:layout_width="fill_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1.0"
+	
+        	android:paddingLeft="6dip"
+        	android:paddingRight="6dip"
+	        android:paddingBottom="6dip"
+        	android:text=" "> 
+	    </TextView>
+    <LinearLayout
+	    	android:layout_width="fill_parent"
+	    	android:layout_height="wrap_content"
+   			android:layout_marginTop="30dip"
+    		android:gravity="center_vertical">
+    		<Button android:id="@+id/savePicture" 
+	   		 	android:layout_width="0dip"
+   		 		android:layout_weight="1.0" 
+	     		android:layout_height="wrap_content" 
+      			android:text="@string/savePictureText" />
+    		<Button android:id="@+id/cancelButton" 
+   		 		android:layout_width="0dip"
+   		 		android:layout_weight="1.0" 
+	     		android:layout_height="wrap_content" 
+      			android:text="@string/cancelButtonText" /> 
+    	</LinearLayout>
+</LinearLayout>

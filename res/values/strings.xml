@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, GeoTagger!</string>
+    <string name="app_name">GeoTagger</string>
+    <string name="viewMap">View Map</string>
+    <string name="takePhoto">Take Photo</string>
+    <string name="pref_gps_title">Use GPS</string>
+    <string name="pref_gps_desc">Check if you want to use GPS location.</string><string name="pref_network_title">Use Network Provider</string>
+    
+    <string name="pref_network_desc">Check if you want to use Network Provider</string>
+    <string name="settings">Settings</string>
+    <string name="cancelButtonText">Cancel</string>
+    <string name="savePictureText">Save</string>
+    <string name="activityName_TakePhoto">Take a Photo</string>
+    <string name="locationText">Your location is: \n</string>
+    <string name="hint_name_image">Enter a name for the above image...</string>
+</resources>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:admob="http://schemas.android.com/apk/res/com.asa.easysal">
+  
+   
+   <PreferenceCategory android:title="Options">
+   
+   		<ListPreference
+   		 	android:title="Location Method"
+           android:summary="Select method for finding current location."
+           android:key="locationMethod"
+           android:defaultValue="1"
+           android:entries="@array/method_names"
+           android:entryValues="@array/method_values" />
+        	
+                
+    </PreferenceCategory>
+    
+    
+  
+</PreferenceScreen>
