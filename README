@@ -1,0 +1,1 @@
+This application was created for CSE 551 at The Ohio State University. It's an application that launches the camera and stores the location of the user in a database upon taking a picture into a database. Then, it displays the locations on a map. 
